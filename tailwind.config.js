@@ -6,7 +6,7 @@ module.exports = {
   experimental: {
     darkModeVariant: true
   },
-  darkMode: 'class',
+  darkMode: 'selector', // set to 'media' for auto dark mode
   theme: {
     extend: {},
   },
