@@ -24,7 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Deploy to GitHub Pages
 
-Run `ng build --output-path docs` and `npx angular-cli-ghpages --dir=docs/browser` to deploy to GitHub Pages.
+Run `ng build --output-path docs` and `npx angular-cli-ghpages --dir=docs/browser --cname=insel-beautycoffee.de` to deploy to GitHub Pages with custom domain.
 
 ## Further help
 
