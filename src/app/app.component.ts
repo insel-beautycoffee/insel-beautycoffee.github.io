@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
     standalone: false
 })
 export class AppComponent {
-  title = 'the-beauty-bar-dresden';
+  title = 'insel-beauty-coffee-lindau';
 }
