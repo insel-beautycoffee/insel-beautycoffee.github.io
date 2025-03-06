@@ -4,21 +4,21 @@
             <h2 class="max-w-md text-3xl font-bold text-center sm:text-4xl sm:text-left text-slate-900 dark:text-white">
                 Nageldesign Wimpernverlängerung
             </h2>
-            <p class="max-w-md text-3xl mt-4 text-center sm:text-left text-indigo-700 dark:text-indigo-400">
-                ★ NEU ★
+            <p class="max-w-md text-3xl mt-4 text-center sm:text-left text-red-400 dark:text-red-400">
+                ☆☆☆ NEU ☆☆☆
             </p>
             <p class="max-w-md text-2xl mt-2 text-center sm:text-left text-slate-700 dark:text-slate-400">
                 Kopf-SPA ist jetzt für Buchungen verfügbar!
             </p>
         </article>
         <picture class="w-2/3 sm:w-1/4 rounded-full overflow-hidden block">
-            <img class="scale-125" src="./assets/imgs/logo_text.jpg" alt="logo">
+            <img class="scale-150" src="./assets/imgs/logo_text.jpg" alt="logo">
         </picture>
     </section>
 
     <section id="service" class="p-6 my-12">
         <div class="text-2xl text-center text-white dark:text-indigo-300 items-center">
-            <a class="py-3 px-16 bg-indigo-700 rounded-full" href="https://wa.me/491791300279?text=Ich+interessiere+mich+für+einen+Termin+am+(Bitte+Datum+und+Uhrzeit+eintragen).">JETZT BUCHEN</a>
+            <a class="py-3 px-16 bg-red-400 rounded-full" href="https://wa.me/491791300279?text=Ich+interessiere+mich+für+einen+Termin+am+(Bitte+Datum+und+Uhrzeit+eintragen).">JETZT BUCHEN</a>
         </div>
     </section>
 
@@ -28,9 +28,9 @@
         <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
             Beliebte Services
         </h2>
+        <ng-image-slider [images]="imageObject" #nav [infinite]="true" [autoSlide]="true"></ng-image-slider>
         <section class="flex flex-col-reverse justify-center sm:flex-row p-6">
             <div class="w-full sm:w-1/2 p-4">
-                <img class="rounded-full aspect-square" src="./assets/imgs/services/Wimpern.jpeg" alt="Wimpern">
                 <p class="text-center text-3xl text-slate-700 dark:text-white pt-2">Wimpern</p>
                 <p class="text-center text-slate-700 dark:text-white pt-1">Wimpernverlängerung, Wimpernlifting + färben</p>
                 <p class="text-center text-3xl text-slate-700 dark:text-white pt-2">Augenbrauen</p>
@@ -39,7 +39,6 @@
                 <p class="text-center text-slate-700 dark:text-white pt-1">Augenbrauen und Lippen</p>
             </div>
             <div class="w-full sm:w-1/2 p-4">
-                <img class="rounded-full aspect-square" src="./assets/imgs/services/Nageldesign.jpeg" alt="Nageldesign">
                 <p class="text-center text-3xl text-slate-700 dark:text-white pt-2">Nageldesign</p>
                 <p class="text-center text-slate-700 dark:text-white pt-1">Neumodellage, Design French Ombre, Schellack</p>
                 <p class="text-center text-3xl text-slate-700 dark:text-white pt-2">Fußpflege</p>
